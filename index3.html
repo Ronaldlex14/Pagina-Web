@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Artesano</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="lista"> <!--lista ordenadas-->
+                    <div class="four columns">
+                        <h1><img src="img/logo.jpeg" alt=""> Bread </h1>
+                    </div>
+                    
+                <li> <!--permite enlitar elementos y dentro de ellas puedes ir elances-->
+                    
+                    <a href="Registro.html" class="Barra-de-busquedad button-primary button input iniciar-sesion" data-id="1">Inicio de sesion</a>
+                </li>
+                <li> 
+                    <a class="Menu-principal" href="#Pedidos"> Realizar tus pedidos</a> 
+                </li>
+                <li>
+                    <a class="Menu-principal" href="#Contacto"> Contactanos </a>
+                </li>
+                <li>
+                    <a class="Menu-principal" href="Registro.html"> Mi cuenta </a>
+                </li>
+                <li class="submenu">
+                    <a href="Carrito.html"><img src="img/cart.png" alt=""></a>
+                </li>
+
+            </ul> <!--LIsta desordenadas-->
+        </nav>
+
+    </header>
+
+    <div class="hero">
+        <div class="container"> 
+            <div class="row">  
+                <div class="six columns">
+                    <div class="contenido">
+                        <h2>El Pan se parte con las manos pero se reparte con el corazón </h2>
+                        <p>Tenemos torta a partir de $15</p>
+                        <form>
+                            <input class="Barra-de-busquedad" type="text" placeholder="Compra Ya!" id="buscador">
+                            <input type="submit" class="submit-buscador" >
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Tortas<br>
+                    Para todo evento</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Bocaditos<br>
+                    de sal y de dulce</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Panes de la mejor<br>
+                       calidad a tu gusto </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="lista-pasteles" class="container">
+        <h1  class="encabezado" id="Pedidos">Pedidos a Domicilio</h1> 
+        <div class="row">
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Pastel1.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Torta Helada</h4>
+                        <p>Rellena de crema con frutos secos<br>
+                        </p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$30 <span class="u-pull-right">$20</span> </p>
+                        <script>
+                            function alerta1(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta1()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Pastel2.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Torta de Manjar</h4>
+                        <p>Relleno de manjar</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$30 <span class="u-pull-right">$25</span> </p>
+                        <script>
+                            function alerta2(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta2()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Pastel3.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Torta de Chocolate</h4>
+                        <p>Relleno extra de Chocolate</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$30 <span class="u-pull-right">$25</span> </p>
+                        <script>
+                            function alerta3(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta3()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Pastel4.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Torta sencilla</h4>
+                        <p>Extra manjar</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$20 <span class="u-pull-right">$15</span> </p>
+                        <script>
+                            function alerta4(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta4()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Pastel5.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Torta de Vanilla</h4>
+                        <p>Relleno extra de manjar</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$50 <span class="u-pull-right">$35</span> </p>
+                        <script>
+                            function alerta5(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta5()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Pastel6.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Pastel de Quinceañera</h4>
+                        <p>Torta semimojada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$60 <span class="u-pull-right">$15</span> </p>
+                        <script>
+                            function alerta6(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta6()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Pan1.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Panes de sal</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio"><span class="u-pull-right">$0.25</span> </p>
+                        <script>
+                            function alerta7(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta7()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Pan2.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Pan de Chocolate</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio"> <span class="u-pull-right">$0.20</span> </p>
+                        <script>
+                            function alerta8(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta8()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Dulce1.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Cake de chocolate</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio"> <span class="u-pull-right">$0.50</span> </p>
+                        <script>
+                            function alerta9(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta9()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Bocaditos1.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Empanadilla de carne</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio"><span class="u-pull-right">$0.50</span> </p>
+                        <script>
+                            function alerta10(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta10()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Bocaditos2.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Bocaditos de camarón</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio"><span class="u-pull-right">$0.25</span> </p>
+                        <script>
+                            function alerta11(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta11()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="carro">
+                    <img src="img/Bocaditos3.jpeg" class="imagen-platillo Barra-de-busquedad">
+                    <div class="info-carro">
+                        <h4>Bocaditos de dulces</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio"><span class="u-pull-right">$0.25</span> </p>
+                        <script>
+                            function alerta12(){
+                                alert("Se añadio correctamente al carrito");
+                            }
+                        </script>
+                        <a href="" onclick="alerta12()" class="Barra-de-busquedad button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer"> 
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav class="menu">
+                        <form class="Formato">
+                            <h2 class="form-label" id="Contacto">Contactanos</h2>
+                        </form action="">
+                             <input type="text" name="NOMBRE" placeholder="Nombre">
+                             <input type="text" name="Telefono" placeholder="Telefono">
+                             <input type="text" name="Mensaje" placeholder="Mensaje"></textarea>
+                            </form>
+                            <script>
+                                function alerta(){
+                                    alert("Datos enviados");
+                                }
+                            </script>
+                            <input type="button" onclick="alerta()" value="ENVIAR">
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

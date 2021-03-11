@@ -1,0 +1,236 @@
+body {
+    background-color: burlywood;
+    font-family:Arial, Helvetica, sans-serif
+}
+.lista {
+    background-repeat: no-repeat;
+
+}
+
+    .lista li {
+        display: inline-block;
+        text-align: center;
+        background-position-x: center;
+    }
+
+ .lista li a:hover{
+    background-color: #fbaf32;
+    
+}
+.Menu-principal {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    padding: 20px 0 0 0;
+    background: #fbaf32;
+    background: -webkit-linear-gradient(left, #b95a00 0%,#ad5400 100% );
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width : 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+.borrar-pastel {
+    background-color: #fbaf32;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+    font-weight: bold;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    background-image: url(../img/Fondo1.png);
+    height: 551px;
+}
+.encabezado {
+    margin: 30px 0;
+    color: white;
+}
+.submenu {
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    color: rgb(141, 126, 126);
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background: #17181b;
+    padding: 20px;
+}
+.vacio {
+    padding: 10px;
+    background-color: #fbaf32;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.button {
+    background-color: #fbaf32;
+    color: rgb(255, 255, 255);
+}
+.contenido {
+    margin-top: 80px;
+    color: white;
+}
+.contenido form {
+    position: relative;
+    margin-bottom: 0;
+}
+.contenidoform #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.barra {
+    padding: 20px 0;
+    background: #fbaf32;
+    background: -webkit-linear-gradient(left, #b95a00 0%,#ad5400 100% );
+}
+.barra p {
+    margin: 0;
+    color: white;
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+.icono1 {
+    background-image: url(../img/icono1.jpeg);
+}
+.icono2 {
+    background-image: url(../img/icono2.jpeg);
+}
+.icono3 {
+    background-image: url(../img/icono3.jpeg);
+}
+
+#lista-pasteles .row {
+    margin-bottom: 20px;
+}
+.agregar-carrito{
+    margin: 10px 0;
+}
+.carro {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #1d2124;
+}
+@media (min-width:550px){
+    .carro {
+        text-align: left;
+    }
+}
+.info-carro {
+    padding: 10px 20px;
+    color: white;
+}
+.info-carro p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-carro .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-carro .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    background: #1d2124;
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.Formato {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: var(--verde);
+    font-family: var(--secondary-font);
+  }
+  
+  .form-label{
+    font-family: var(--secondary-font);
+    color: white;
+  }
+  button{
+    color: var(verde);
+    font-family: var(--secondary-font);
+    color: white;
+  }
+
+
+.Barra-de-busquedad{
+    color: black;
+}
+
+.datos{
+    color: black;
+    display: inline-block;
+    display: flex;
+    text-decoration: none;
+  box-sizing: border-box;
+  margin: auto;
+  position: absolute;
+  left: 43%;
+   
+ }

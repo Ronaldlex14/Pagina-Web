@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>LISTADO DE COMPRAS</h1>
+    <li>
+        <table class="Barra-de-busquedad">
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Detalles</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="img/Pastel1.jpeg" width="200">
+                    </td>
+                    <td>Torta helada</td>
+                    <td>$20</td>
+                    <script>
+                        function alert2(){
+                            alert("El producto se eliminó correctamente");
+                        }
+                    </script>
+                    <td><a href="#" class="borrar-pastel" type="button" onclick="alert2()">X</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/Pastel3.jpeg" width="200">
+                    </td>
+                    <td>Torta sencilla</td>
+                    <td>$15</td>
+                    <script>
+                        function alert1(){
+                            alert("El producto se eliminó correctamente");
+                        }
+                    </script>
+                    <td><a href="#" class="borrar-pastel" type="button" onclick="alert1()"> X </a>
+                </tr>
+            </tbody>
+        </table>
+            <script>
+                function alert3(){
+                    alert("La compra se realizo correctamente");
+                }
+            </script>
+            <a href="" class="button Vaciar datos" type="button" onclick="alert3()">Finalizar Compra</a> <br>
+
+            <script>
+                function alerta(){
+                    alert("El carrito se vacio correctamente");
+                }
+            </script>
+            <br><a href="#" class="button Vaciar datos" type="button" onclick="alerta()">vaciar carrito</a> <br>
+                <br><a href="index3.html" class="Vaciar button-primary button input iniciar-sesion Vaciar datos" data-id="1">Volver</a>
+    </div>
+    </li>
+</body>
+</html>
